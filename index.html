@@ -1027,7 +1027,7 @@
         // Header scroll effect
         window.addEventListener('scroll', () => {
             const header = document.querySelector('header');
-            if (window.scrollY > 100) {
+            if (window.scrollY > 0) {
                 header.style.background = 'linear-gradient(135deg, rgba(0,0,0,0.98), rgba(112,48,48,0.99))';
                 header.style.backdropFilter = 'blur(30px)';
             } else {
